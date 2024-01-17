@@ -1,0 +1,28 @@
+TypeScript (TS):
+
+Cos'è: TypeScript è un linguaggio di programmazione open-source sviluppato da Microsoft. È un superset di JavaScript, il che significa che ogni programma JavaScript è anche un programma TypeScript valido.
+A cosa serve: TypeScript aggiunge al JavaScript tradizionale il supporto per i tipi. Ciò significa che è possibile dichiarare il tipo di una variabile, argomento di funzione o valore restituito, fornendo così maggiore sicurezza e controllo durante la fase di sviluppo.
+Il compilatore TypeScript:
+
+Perché è necessario: TypeScript viene scritto con un sistema di tipizzazione statica, ma il browser interpreta solo JavaScript. Il compilatore TypeScript traduce il codice TypeScript in JavaScript in modo che possa essere eseguito nei browser o in qualsiasi altro ambiente JavaScript.
+Type Inference:
+
+TypeScript supporta l'inferenza di tipo, il che significa che il compilatore può dedurre il tipo di una variabile anche se non viene esplicitamente dichiarato. Ciò consente una maggiore flessibilità nella scrittura del codice, riducendo la necessità di dichiarare tipi in modo esplicito.
+Il tipo 'any':
+
+TypeScript include il tipo 'any', che rappresenta una variabile senza un tipo specifico. L'utilizzo di 'any' può ridurre i vantaggi della tipizzazione statica, ma può essere utile in situazioni in cui non è possibile specificare un tipo in modo chiaro.
+Il tipo Union:
+
+Il tipo Union consente di dichiarare una variabile con uno dei due o più tipi possibili. Ad esempio, number | string indica che la variabile può essere di tipo number o string.
+Il tipo Tuple:
+
+Un tuple è un tipo di dato in TypeScript che consente di definire un array con un numero fisso di elementi di tipi specifici.
+Le Interfacce in TypeScript:
+
+Le interfacce sono usate per definire la struttura di un oggetto. Forniscono un modo per dichiarare la forma che un oggetto dovrebbe avere senza implementare direttamente l'oggetto stesso.
+Types vs Interfaces:
+
+Entrambi Types e Interfaces sono utilizzati per definire tipi personalizzati, ma ci sono alcune differenze. Ad esempio, una interfaccia può essere estesa e implementata, mentre i tipi possono essere utilizzati per creare tipi di union o intersezioni.
+I Generics:
+
+I Generics consentono di creare componenti riutilizzabili che lavorano con vari tipi di dati senza perdere l'integrità del tipo. Sono spesso utilizzati nelle funzioni e nelle classi per rendere il codice più flessibile.
